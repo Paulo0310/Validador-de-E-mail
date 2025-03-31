@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form">
+        <h1 class="text-hero">Validar E-mail</h1>
+            <div class="container">
+                <input
+                 type="text" 
+                 id="email"
+                 placeholder="E-mail"
+                 required
+                 >
+                <button id="enviar" onclick="validarEmail()">Enviar</button>
+            </div>
+    </div>
+    <script>
+        function validarEmail (e) {
+
+            const emailInput = document.getElementById('email').value.trim();
+
+            if(emailInput === "" || !emailInput.includes("@")){
+
+                alert("preencha o campo corretamente")
+                console.log('Incorreto')
+
+            } else {
+            alert("Enviado")
+            console.log('Enviado')
+            }
+        }
+    </script>
+    
+    
+</body>
+</html>
