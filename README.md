@@ -12,7 +12,7 @@ Exibe mensagens de alerta caso o e-mail seja inválido.
 
 📌 Como Usar
 
-Clone este repositório:
+Clone este repositório: https://github.com/Paulo0310/Validador-de-E-mail.git
 
 Abra o arquivo index.html no seu navegador.
 
