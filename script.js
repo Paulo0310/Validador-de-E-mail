@@ -4,7 +4,7 @@ function validarEmail (e) {
 
     if(emailInput === "" || !emailInput.includes('@')){
 
-        alert('preencha o campo corretamente');
+        alert('preencha o campo corretamente! Ex: 1234@exemplo.com');
         console.log('Incorreto');
      
     } else {
